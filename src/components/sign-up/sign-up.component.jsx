@@ -22,6 +22,7 @@ class SignUp extends React.Component {
   handleSubmit = async event => {
     event.preventDefault();
 
+    // eslint-disable-next-line
     const { displayName, email, password, confirmPassword } = this.state;
 
     if (password !== confirmPassword) {

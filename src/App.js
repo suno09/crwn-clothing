@@ -3,6 +3,7 @@ import ShopPage from './pages/shop/shop.component';
 import Header from './components/header/header.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 
+// eslint-disable-next-line
 import { Switch, Route, Link } from 'react-router-dom';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
